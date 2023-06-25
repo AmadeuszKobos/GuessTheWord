@@ -1,0 +1,29 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <Color x:Key="CustomBlue">#647bb0</Color>
+
+    <SolidColorBrush x:Key="titleBarBackground" Color="{DynamicResource CustomBlue}"/>
+
+    <Style x:Key="TitleBarStyle" TargetType="TextBlock">
+        <Setter Property="Background" Value="{DynamicResource titleBarBackground}"/>   
+        <Setter Property="Foreground" Value="White"/>
+        <Setter Property="FontSize" Value="20"/>
+        <Setter Property="HorizontalAlignment" Value="Stretch"/>
+        <Setter Property="TextAlignment" Value="Center"/>
+        <Setter Property="Padding" Value="5"/>
+        <Setter Property="Text" Value="G_essTheW_rd"/>
+    </Style>
+
+    <Style x:Key="WordRow" TargetType="TextBlock">
+        <Setter Property="Background" Value="LightGray"/>
+        <Setter Property="TextAlignment" Value="Center"/>
+        <Setter Property="HorizontalAlignment" Value="Stretch"/>
+        <Setter Property="Padding" Value="5"/>
+        <Setter Property="Text" Value="_._._._._"/>
+
+    </Style>
+    
+
+
+</ResourceDictionary>
